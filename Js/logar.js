@@ -45,7 +45,7 @@ async function get() {
             usuariologado = true
             localStorage.setItem("usuario", usuario)
             localStorage.setItem("id", index)
-            window.location.href = 'Pages/main.html';  
+            window.location.href = 'main.html';  
         } else {
             alert('Usuário ou senha inválidos!');
         }
